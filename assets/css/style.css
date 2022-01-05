@@ -1,1 +1,390 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.w-100 {
+  width: 100%;
+  margin: auto;
+}
+
+.w-90 {
+  width: 90%;
+  margin: auto;
+}
+
+.w-80 {
+  width: 80%;
+  margin: auto;
+}
+
+.w-70 {
+  width: 70%;
+}
+
+.w-60 {
+  width: 60%;
+  margin: auto;
+}
+
+.w-50 {
+  width: 50%;
+  margin: auto;
+}
+
+.p-50 {
+  padding: 50px;
+}
+
+.p-25 {
+  padding: 25px;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.p-5 {
+  padding: 5px;
+}
+
+.m-10 {
+  margin: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  padding: 0.375rem 1.75rem;
+  font-size: 1rem;
+  border-radius: 500px;
+}
+
+.btn-primary {
+  background-color: #0a51a1;
+  border-color: #0a51a1;
+  color: #e7eefe;
+}
+
+.insurance-choose {
+  background-color: #e7eefe;
+}
+
+.how-we-work {
+  background-color: #e7eefe;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: swrap;
+}
+
+.col-6 {
+  width: 50%;
+  margin: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 50px auto;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav a {
+  font-weight: 600;
+  color: #000000;
+}
+
+.hero {
+  width: 90%;
+  margin: auto;
+  min-height: 90vh;
+}
+
+.hero h1 {
+  font-size: 2.34rem;
+  font-weight: 800;
+  line-height: 1.6;
+  margin: 15px 5px;
+}
+
+.hero p {
+  font-size: 0.91rem;
+  color: #444444;
+  font-weight: 500;
+  line-height: 1.5;
+  margin: 15px 5px;
+}
+
+.hero a {
+  margin: 15px auto;
+}
+
+.hero img {
+  width: 100%;
+  margin: auto;
+  text-align: right;
+}
+
+h1 {
+  font-size: 2.34rem;
+  font-weight: 800;
+  line-height: 1.6;
+}
+
+.insurance-choose {
+  min-height: 135vh;
+}
+
+.insurance-choose h1 {
+  padding-top: 25px;
+  margin-bottom: 15px;
+}
+
+.insurance-choose p.lead {
+  width: 70%;
+  margin: 35px auto 45px auto;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.insurance-choose .insurance-card-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 33.333333%;
+  justify-content: space-around;
+}
+
+.insurance-choose .insurance-card-list .card {
+  background-color: #fff;
+  box-shadow: 0 3px 6px rgba(180, 180, 180, 0.16);
+  margin: 15px 2px;
+  border-radius: 5px;
+  width: 30%;
+}
+
+.insurance-choose .insurance-card-list .card .card-body {
+  margin: 20px;
+}
+
+.insurance-choose .insurance-card-list .card .card-body .card-title {
+  margin: 10px 10px 25px 10px;
+}
+
+.insurance-choose .insurance-card-list .card .card-body .card-text {
+  margin: 10px;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  color: #444444;
+}
+
+.insurance-choose .insurance-card-list .card .card-body .card-link {
+  color: #0a51a1;
+  font-weight: 600;
+  font-size: 0.78rem;
+  margin: 10px;
+}
+
+.why-us {
+  min-height: 80vh;
+}
+
+.why-us .container {
+  margin: 25px auto;
+}
+
+.why-us h1 {
+  margin: 15px 5px;
+}
+
+.why-us p {
+  font-size: 0.91rem;
+  color: #444444;
+  font-weight: 500;
+  line-height: 1.5;
+  margin: 15px 5px;
+}
+
+.why-us .short-desc {
+  margin: 45px 0 15px 0;
+}
+
+.why-us .short-desc h4 {
+  margin: 15px 5px;
+}
+
+.why-us .short-desc p {
+  font-size: 0.78rem;
+}
+
+.why-us img {
+  width: 100%;
+  margin: auto;
+  text-align: right;
+}
+
+.how-we-work {
+  min-height: 120vh;
+}
+
+.how-we-work h4 {
+  color: #0a51a1;
+  padding-top: 50px;
+  margin-bottom: 25px;
+}
+
+.how-we-work h1 {
+  margin-bottom: 20px;
+}
+
+.how-we-work p.lead {
+  margin: 25px auto;
+  line-height: 1.5;
+}
+
+.how-we-work .row.working-list {
+  width: 80%;
+  margin: 30px auto;
+}
+
+.how-we-work .row.working-list .col-3 {
+  text-align: center;
+}
+
+.how-we-work .row.working-list .col-3 img {
+  height: 70px;
+  text-align: center;
+  margin: 15px auto;
+  justify-content: center;
+}
+
+.how-we-work .row.working-list .col-3 h5 {
+  margin: 15px auto;
+}
+
+.how-we-work .row.working-list .col-3 p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin: 15px auto;
+}
+
+footer {
+  background-color: #0a51a1;
+}
+
+footer h3 {
+  padding: 15px;
+  font-size: 1.3 2rem;
+  line-height: 1.6;
+  color: #ffffff;
+}
+
+footer hr {
+  border: 1px solid #023d7c59;
+  margin: 25px auto;
+}
+
+footer .footer-container > .row {
+  justify-content: space-between;
+}
+
+footer h5 {
+  font-size: 1.3 2rem;
+  color: #ffffff;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+footer ul > li {
+  margin-top: 15px;
+}
+
+footer ul > li a {
+  color: #d9d9d9;
+}
+
+footer form > .mb-3 {
+  display: grid;
+}
+
+footer form > .mb-3 label {
+  margin-bottom: 15px;
+}
+
+footer form > .mb-3 input {
+  margin-bottom: 15px;
+  height: 35px;
+  background-color: #afc8e7;
+  border: 1px solid #afc8e7;
+  border-radius: 5px;
+}
+
+footer form > .mb-3 button {
+  background-color: #023c7c;
+  border-radius: 5px;
+  border: hidden;
+}
+
+footer p.footer-text {
+  margin: 15px auto;
+  height: 45px;
+}
+
+@media screen and (max-width: 560px) {
+  nav {
+    display: none;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .col-6 {
+    width: 100%;
+    margin: auto;
+  }
+  .w-50 {
+    width: 90%;
+    margin: auto;
+  }
+  .w-60 {
+    width: 90%;
+    margin: auto;
+  }
+  .insurance-choose p.lead {
+    width: 100%;
+  }
+  .insurance-choose .insurance-card-list {
+    flex-direction: column;
+  }
+  .insurance-choose .insurance-card-list .card {
+    width: 100%;
+  }
+  footer .col-3 {
+    margin: 15px 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */
