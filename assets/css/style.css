@@ -100,24 +100,58 @@ a:focus {
   margin: auto;
 }
 
-nav {
+header .container {
   display: flex;
   justify-content: space-between;
-  width: 90%;
-  margin: 50px auto;
+  align-items: center;
+  padding: 5%;
 }
 
-nav ul {
-  display: flex;
+header .container a.nav-brand {
+  text-transform: uppercase;
 }
 
-nav ul li {
-  margin: 0 15px;
+header nav ul {
+  list-style: none;
 }
 
-nav a {
-  font-weight: 600;
+header nav ul li {
+  display: inline-block;
+  padding: 0 10px;
+  text-transform: capitalize;
+  font-size: 0.92em;
+}
+
+header nav ul li a {
   color: #000000;
+  text-decoration: none;
+}
+
+header #ham {
+  display: none;
+}
+
+header #ham div {
+  background-color: #6c6c6cad;
+  width: 20px;
+  height: 3px;
+  margin: 3px;
+}
+
+header .activeul {
+  position: absolute;
+  right: 0px;
+  height: 100%;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  background-color: #f8f8f8;
+}
+
+header .activeul li {
+  margin: 25px 0;
 }
 
 .hero {
@@ -208,6 +242,7 @@ h1 {
   font-weight: 600;
   font-size: 0.78rem;
   margin: 10px;
+  display: block;
 }
 
 .why-us {
@@ -356,9 +391,6 @@ footer p.footer-text {
 }
 
 @media screen and (max-width: 560px) {
-  nav {
-    display: none;
-  }
   .row {
     flex-direction: column;
   }
@@ -374,6 +406,20 @@ footer p.footer-text {
     width: 90%;
     margin: auto;
   }
+  h1 {
+    font-size: 2.14rem;
+  }
+  header nav ul {
+    display: none;
+  }
+  header #ham {
+    display: block;
+    cursor: pointer;
+    z-index: 5;
+  }
+  a.btn.btn-primary {
+    margin-bottom: 25px;
+  }
   .insurance-choose p.lead {
     width: 100%;
   }
@@ -385,6 +431,67 @@ footer p.footer-text {
   }
   footer .col-3 {
     margin: 15px 0;
+  }
+}
+
+@media screen and (min-width: 790px) and (max-width: 1199px) {
+  .hero {
+    min-height: 80vh;
+  }
+  .insurance-choose {
+    min-height: 125vh;
+  }
+  .how-we-work {
+    min-height: 110vh;
+  }
+  .why-us {
+    min-height: 75vh;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1800px) {
+  .btn {
+    padding: 0.65rem 1.95rem;
+    font-size: 1.2rem;
+  }
+  p {
+    font-size: 1.1rem !important;
+  }
+  header {
+    font-size: 1.32rem;
+  }
+  .hero {
+    width: 90%;
+    margin: auto;
+    min-height: 75vh;
+  }
+  .hero h1 {
+    font-size: 2.24rem;
+  }
+  .hero p {
+    font-size: 1.21rem;
+  }
+  .insurance-choose {
+    min-height: 100vh;
+  }
+  .insurance-choose .insurance-card-list .card .card-body .card-title {
+    margin: 10px 10px 25px 10px;
+    font-size: 1.21rem;
+    line-height: 1.5;
+  }
+  .insurance-choose .insurance-card-list .card .card-body .card-link {
+    font-size: 0.98rem;
+    margin: 20px 10px;
+  }
+  .how-we-work {
+    min-height: 80vh;
+  }
+  .why-us {
+    min-height: 60vh;
+  }
+  .why-us .short-desc h4 {
+    margin: 15px 5px;
+    font-size: 1.5rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
